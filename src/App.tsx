@@ -525,7 +525,7 @@ function Game() {
                   The SPA application development environment is set up using <Link href='https://vitejs.dev/'>Vite</Link>, a robust frontend tool. 
                   The layout is designed to remain fully responsive, thanks to MUI breakpoints and a dynamic grid. <br/><br/>
                   Do you want to start frontend development the same as I do? Do you wonder how to connect powerful tools like React, MUI and TypeScript in one project? 
-                  Feel free to explore the source code of <b>"Tic Tac Toe: Code to Win"</b> on our <Link href='https://appfinity.pl'>Github repository</Link>. 
+                  Feel free to explore the source code of <b>"Tic Tac Toe: Code to Win"</b> on our <Link href='https://github.com/Appfinity-Apps-for-You/tictactoe-codetowin'>Github repository</Link>. 
                   Whether you choose to replicate, modify, or completely rewrite the code, this is your chance to empower your skills. <span color='blue'><b>Start shaping your future today!</b></span>
                 </Typography>
 
