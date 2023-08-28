@@ -6,16 +6,16 @@ export default function PrivacyPolicy() {
 		<Box sx={{ flexGrow: 1}} >
 			<Helmet>
 				<title>Tic Tac Toe: Code to Win</title>
-				<meta name="description" content="Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components." />
-				<meta property="og:title" content="Privacy Policy | Tic Tac Toe - Code to Win" />
-				<meta property="og:type" content="website" />
-				<meta property="og:description" content="Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components." />
-				<meta property="og:image" content="/src/assets/images/tictactoe-fb.png" />
-				<meta property="og:url" content="https://tic-tac-toe.games" />
-				<meta name="robots" content="noindex,nofollow" />
-      </Helmet>
-			<Typography variant="h1" fontSize={'4rem'} textAlign={'center'} marginBottom={'1.5rem'}> Privacy Policy</Typography>
-			<Typography variant="body1">
+				<meta name='description' content='Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components.' />
+				<meta property='og:title' content='Privacy Policy | Tic Tac Toe - Code to Win' />
+				<meta property='og:type' content='website' />
+				<meta property='og:description' content='Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components.' />
+				<meta property='og:image' content='/src/assets/images/tictactoe-fb.png' />
+				<meta property='og:url' content='https://tic-tac-toe.games' />
+				<meta name='robots' content='noindex,nofollow' />
+			</Helmet>
+			<Typography variant= 'h2' fontSize= {{xs:'2.5rem', md:'4.5rem'}} textAlign= 'center' marginBottom= '1.5rem'> Privacy Policy</Typography>
+			<Typography variant= 'body1'>
 				This Privacy Policy outlines how Appfinity Piotr Chwaleba ("we," "our," or "us") collects, uses, 
 				and safeguards the personal information of users ("you" or "your") 
 				who engage with our web application, specifically the Tic Tac Toe: Code to Win ("the App"). 
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
 
 				<b>Contact Us</b><br/>
 				If you have any questions, concerns, or requests regarding your privacy or this Privacy Policy, 
-				please contact us at <Link href="mailto:contact@appfinity.pl">contact@appfinity.pl</Link>.<br/><br/>
+				please contact us at <Link href='mailto:contact@appfinity.pl'>contact@appfinity.pl</Link>.<br/><br/>
 
 		</Typography>
 		</Box>

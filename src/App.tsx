@@ -408,10 +408,10 @@ function Game() {
                  <Typography variant= 'h1' display= 'none'>
                     Tic Tac Toe: React, MUI and TypeScript learning project
                 </Typography>
-                <Typography variant= 'h2' fontSize= '4.5rem'>
+                <Typography variant= 'h2' fontSize= {{xs:'2.5rem', md:'4.5rem'}}>
                     Tic Tac Toe
                 </Typography>
-                <Typography variant= 'h3' fontSize= '3rem'>
+                <Typography variant= 'h3' fontSize= {{xs:'1.5rem', md:'3rem'}}>
                     Code to Win
                 </Typography>
                 <Button
@@ -426,7 +426,7 @@ function Game() {
               </Grid>
               <Grid xs= {12} md= {6} display= 'block' direction= 'column' alignItems= 'center' textAlign= 'center'>
                 <Box className= 'board'>
-                  <Typography variant= 'h3' fontSize= '2rem'>
+                  <Typography variant= 'h3' fontSize=  {{xs:'1.25rem', md:'2rem'}}>
                     Game
                   </Typography>
                   <Box
@@ -445,7 +445,7 @@ function Game() {
               </Grid>
               <Grid xs= {12} md= {6} display= 'block' direction= 'column' alignItems= 'center' textAlign= 'center'>
                 <Box className= 'dashboard'>
-                  <Typography variant= 'h3' fontSize= '2rem'>
+                  <Typography variant= 'h3' fontSize=  {{xs:'1.25rem', md:'2rem'}}>
                     List of moves
                   </Typography>
 
@@ -490,7 +490,7 @@ function Game() {
                     />
                   </Box>
                 </Box>
-                <Typography variant= 'h2' fontSize= '3rem'>
+                <Typography variant= 'h2' fontSize= {{xs:'2.5rem', md:'4.5rem'}}>
                     Tic Tac Toe: <br/> The Classic Game of Strategy
                 </Typography>
 
