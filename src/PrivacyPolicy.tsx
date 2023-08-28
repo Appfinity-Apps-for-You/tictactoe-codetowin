@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
 				<meta property='og:title' content='Privacy Policy | Tic Tac Toe - Code to Win' />
 				<meta property='og:type' content='website' />
 				<meta property='og:description' content='Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components.' />
-				<meta property='og:image' content='/src/assets/images/tictactoe-fb.png' />
+				<meta property='og:image' content='https://tic-tac-toe.games/tictactoe-fb.png' />
 				<meta property='og:url' content='https://tic-tac-toe.games' />
 				<meta name='robots' content='noindex,nofollow' />
 			</Helmet>
