@@ -1,21 +1,23 @@
-import { Box, Link, Typography } from "@mui/material"
-import { Helmet } from "react-helmet"
+import { Box, Link, Typography } from '@mui/material'
+import { Helmet } from 'react-helmet-async'
 
 export default function PrivacyPolicy() {
-	return (
-		<Box sx={{ flexGrow: 1}} >
+return (
+		<Box sx = {{ flexGrow: 1}} >
 			<Helmet>
 				<title>Tic Tac Toe: Code to Win</title>
-				<meta name='description' content='Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components.' />
-				<meta property='og:title' content='Privacy Policy | Tic Tac Toe - Code to Win' />
-				<meta property='og:type' content='website' />
-				<meta property='og:description' content='Tic Tac Toe - Code to Win is a learning frontend project combining React, TypeScript, Vite and MUI components.' />
-				<meta property='og:image' content='https://tic-tac-toe.games/tictactoe-fb.png' />
-				<meta property='og:url' content='https://tic-tac-toe.games' />
-				<meta name='robots' content='noindex,nofollow' />
+				<meta name = 'description' content = 'Feel bored? Play Tic Tac Toe with Friend or with Bot - React learning app combined with TypeScript, Vite and MUI components.' />
+				<meta property = 'og:title' content = 'Privacy Policy | Tic Tac Toe - Code to Win' />
+				<meta property = 'og:type' content = 'website' />
+				<meta property = 'og:description' content = 'Feel bored? Play Tic Tac Toe with Friend or with Bot - React learning app combined with TypeScript, Vite and MUI components.' />
+				<meta property = 'og:image' content = 'https://tic-tac-toe.games/tictactoe-fb.png' />
+				<meta property = 'og:image:width' content = '1200px' />
+				<meta property = 'og:image:height' content = '630px' />
+				<meta property ='og:url' content = 'https://tic-tac-toe.games' />
+				<meta name ='robots' content = 'noindex,nofollow' />
 			</Helmet>
-			<Typography variant= 'h2' fontSize= {{xs:'2.5rem', md:'4.5rem'}} textAlign= 'center' marginBottom= '1.5rem'> Privacy Policy</Typography>
-			<Typography variant= 'body1'>
+			<Typography variant = 'h2' fontSize = {{xs:'2.5rem', md:'4.5rem'}} textAlign = 'center' marginBottom = '1.5rem'> Privacy Policy</Typography>
+			<Typography variant = 'body1'>
 				This Privacy Policy outlines how Appfinity Piotr Chwaleba ("we," "our," or "us") collects, uses, 
 				and safeguards the personal information of users ("you" or "your") 
 				who engage with our web application, specifically the Tic Tac Toe: Code to Win ("the App"). 
@@ -32,7 +34,7 @@ export default function PrivacyPolicy() {
 					<b>Usage Data: </b> We may collect non-personal, aggregated information about your interactions with the App, 
 					such as your game moves, win/loss records, and session duration. This data helps us improve the App's 
 					functionality and user experience.
-				</li><br/><br/>
+				</li><br/>
 
 				<b>Cookies and Tracking Technologies</b><br/>
 				We may use cookies and similar tracking technologies to enhance your experience with the App. 
@@ -50,7 +52,7 @@ export default function PrivacyPolicy() {
 						<b>Analytics: </b> We may use aggregated and anonymized data for analytical purposes, which helps us understand 
 						user preferences, popular game strategies, and overall usage patterns.
 					</li>
-				<br/><br/>
+				<br/>
 
 				<b>Data Security</b><br/>
 				We prioritize the security of your information and take reasonable measures to protect it. However, no method 
@@ -73,7 +75,7 @@ export default function PrivacyPolicy() {
 
 				<b>Contact Us</b><br/>
 				If you have any questions, concerns, or requests regarding your privacy or this Privacy Policy, 
-				please contact us at <Link href='mailto:contact@appfinity.pl'>contact@appfinity.pl</Link>.<br/><br/>
+				please contact us at <Link href = 'mailto:contact@appfinity.pl'>contact@appfinity.pl</Link>.<br/><br/>
 
 		</Typography>
 		</Box>

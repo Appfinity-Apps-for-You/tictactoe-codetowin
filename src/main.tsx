@@ -13,6 +13,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import PrivacyPolicy from './PrivacyPolicy.tsx'
 import ReactGA from "react-ga4"
+import { HelmetProvider } from 'react-helmet-async'
 
 ReactGA.initialize('G-XXX')
 
@@ -29,6 +30,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>,
 )
